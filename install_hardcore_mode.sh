@@ -2,6 +2,10 @@ alias update='sudo apt-get update'
 alias upgrade='sudo apt-get upgrade'
 alias install='sudo apt-get install'
 alias addapt='sudo add-apt-repository'
+alias show='sudo apt show'
+alias showrun='pgrep'
+alias tree='pstree'
+
 
 addapt ppa:webupd8team/java
 
